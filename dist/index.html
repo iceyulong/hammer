@@ -1,33 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>index</title>
-	<link rel="stylesheet" href="css/index.css">
-	<!-- <script src="js/jquery-3.2.1.min.js"></script> -->
-	<!-- <script src="js/main.js"></script> -->
-	<!-- 引入模块化开发组件require.js
-	可以异步加载，设置异步加载
-	IE浏览器 defer
-	别的浏览器 async = "true"
-	data-main 设置入口js文件（注意：引入js文件时，可以省略后缀）
-	 -->
-	<script src="js/require.js" defer async="true" data-main="js/main.js"></script>
-</head>
-<body>
-	<h4>this is a test page</h4>
-	<h3>this is watch</h3>
-	<div id="div1" class="div">
-		this is test of sass!!!!!
-	</div>
-	<ul>
-		<li><img src="images/1.jpg" alt=""></li>
-		<!-- <li><img src="images/2.jpg" alt=""></li>
-		<li><img src="images/3.jpg" alt=""></li>
-		<li><img src="images/4.jpg" alt=""></li>
-		<li><img src="images/5.jpg" alt=""></li>
-		<li><img src="images/6.jpg" alt=""></li>
-		<li><img src="images/7.jpg" alt=""></li> -->
-	</ul>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<link rel="stylesheet" href="css/index.css">
+		<!-- 
+			引入模块化开发组件require.js
+			可以异步加载，设置异步加载
+			IE 浏览器  defer
+			别的浏览器 async = "true"
+
+			data-main  设置入口js文件（【注】引入js文件的时候，可以省略后缀）
+		 -->
+		<script src = "js/require.js" defer async = "true" data-main = "js/main"></script>
+		<!-- <script src = "js/jquery-1.11.3.js"></script> -->
+		<!-- <script src = "js/jquery.cookie.js"></script> -->
+	</head>
+	<body>
+
+		<!-- 商品列表 -->
+		<div class="goods_box">
+			<ul>
+			</ul>
+		</div>
+
+	<!-- 右边购物车 -->
+		<div class="sc_right">
+			<div class="sc_pic">
+				<!-- 购物车内商品的数量 -->
+				<div class="sc_num">
+					0
+				</div>
+				
+			</div>
+
+			<ul>
+				<!-- 加载在cookie中的商品在这里加载 -->
+			
+			</ul>
+		</div>
+		<div id = "ball"></div>
+	</body>
 </html>
+
+
+
+
+
+
