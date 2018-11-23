@@ -1,0 +1,19 @@
+$width: 100px;
+$height: 100px;
+$color: red;
+$bgcolor: pink;
+$font: 20px;
+
+#div1{
+	width: $width;
+	height: $height;
+	color: $color;
+	background: $bgcolor;
+	font-size: $font;
+}
+
+li{
+	list-style:none;
+	float:left;
+	margin-left:20px;
+}

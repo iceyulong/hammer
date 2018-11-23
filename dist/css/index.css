@@ -1,0 +1,11 @@
+#div1 {
+  width: 100px;
+  height: 100px;
+  color: red;
+  background: pink;
+  font-size: 20px; }
+
+li {
+  list-style: none;
+  float: left;
+  margin-left: 20px; }
